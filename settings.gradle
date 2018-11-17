@@ -1,2 +1,4 @@
-rootProject.name = 'spark-gradle-template'
+rootProject.name = 'sparkle'
+include 'sparkle-core'
+include 'sparkle-hbase'
 

@@ -1,0 +1,8 @@
+version projectVersion
+
+dependencies {
+    compile "org.apache.spark:spark-sql_2.12:$sparkVersion"
+    compile "org.apache.spark:spark-catalyst_2.12:$sparkVersion"
+    compile "org.apache.spark:spark-streaming_2.12:$sparkVersion"
+    compile "org.apache.spark:spark-core_2.12:$sparkVersion"
+}
